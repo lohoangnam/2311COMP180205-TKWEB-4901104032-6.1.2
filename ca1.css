@@ -1,0 +1,68 @@
+#aquarium {
+  background-image: url(./đại\ dương.jpg);
+  width: 1300px;
+  height: 500px;
+  margin: auto;
+  
+  position: relative;
+
+  }
+  
+  .fish {
+    position: absolute;
+    animation: swim 5s linear infinite alternate;
+  }
+  
+  @keyframes swim {
+    from { left: 0px;}
+    to { left: 800px;transform: matrix(0.707107 , 0.707107, -0.707107, 0.707107,150,0);}    
+  }
+  .tho {
+    position: absolute;
+    animation: tho 7s linear infinite alternate;
+
+  }
+  @keyframes tho {
+    from { left: 0px;}
+    to { left: 400px;transform: matrix(0.707107 , 0.707107, -0.707107, 0.707107,150,0);}  
+
+  }
+  .rua {
+    position: absolute;
+    animation: rua 10s linear infinite alternate;
+
+  }
+  @keyframes rua {
+    from { left: 600px;}
+    to { left: 900px;transform: matrix(0.707107 , 0.707107, -0.707107, 0.707107,150,0);}  
+
+  }
+  .bb {
+    position: absolute;
+    animation: bb 2s linear infinite normal;
+
+  }
+  @keyframes bb {
+    from { top: 200px;}
+    to { top: 0px;}
+  }
+  .bb1 {
+    position: absolute;
+    animation: bb1 2s linear infinite normal;
+
+  }
+  @keyframes bb1{
+    from { top :150px;}
+    to { top :0px}
+  }
+  button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+body{
+  background-color: #fff;
+}
